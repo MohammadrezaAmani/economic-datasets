@@ -1,0 +1,77 @@
+{
+    "draw": null,
+    "recordsTotal": 7,
+    "recordsFiltered": 7,
+    "data": [
+        [
+            "21",
+            "21",
+            "21",
+            "21",
+            "<span class=\"high\" dir=\"ltr\">9.9</span>",
+            "<span class=\"high\" dir=\"ltr\">89.19%</span>",
+            "2022/07/01",
+            "1401/04/10"
+        ],
+        [
+            "11.10",
+            "11.10",
+            "11.10",
+            "11.10",
+            "<span class=\"low\" dir=\"ltr\">0.1</span>",
+            "<span class=\"low\" dir=\"ltr\">0.9%</span>",
+            "2021/11/07",
+            "1400/08/16"
+        ],
+        [
+            "11.20",
+            "11.20",
+            "11.20",
+            "11.20",
+            "<span class=\"high\" dir=\"ltr\">0.2</span>",
+            "<span class=\"high\" dir=\"ltr\">1.82%</span>",
+            "2021/07/27",
+            "1400/05/05"
+        ],
+        [
+            "11",
+            "11",
+            "11",
+            "11",
+            "<span class=\"low\" dir=\"ltr\">1</span>",
+            "<span class=\"low\" dir=\"ltr\">9.09%</span>",
+            "2021/07/09",
+            "1400/04/18"
+        ],
+        [
+            "12",
+            "12",
+            "12",
+            "12",
+            "<span class=\"high\" dir=\"ltr\">1</span>",
+            "<span class=\"high\" dir=\"ltr\">9.09%</span>",
+            "2021/06/28",
+            "1400/04/07"
+        ],
+        [
+            "11",
+            "11",
+            "11",
+            "11",
+            "<span class=\"high\" dir=\"ltr\">1</span>",
+            "<span class=\"high\" dir=\"ltr\">10%</span>",
+            "2020/11/03",
+            "1399/08/13"
+        ],
+        [
+            "10",
+            "10",
+            "10",
+            "10",
+            "<span class=\"high\" dir=\"ltr\">1</span>",
+            "<span class=\"high\" dir=\"ltr\">10%</span>",
+            "2018/09/04",
+            "1397/06/13"
+        ]
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "draw": null,
+    "recordsTotal": 3,
+    "recordsFiltered": 3,
+    "data": [
+        [
+            "100",
+            "100",
+            "100",
+            "100",
+            "<span class=\"low\" dir=\"ltr\">38100</span>",
+            "<span class=\"low\" dir=\"ltr\">38100%</span>",
+            "2023/02/25",
+            "1401/12/06"
+        ],
+        [
+            "30,500",
+            "30,500",
+            "38,200",
+            "38,200",
+            "<span class=\"high\" dir=\"ltr\">10</span>",
+            "<span class=\"high\" dir=\"ltr\">0.03%</span>",
+            "2022/09/25",
+            "1401/07/03"
+        ],
+        [
+            "38,190",
+            "38,190",
+            "38,190",
+            "38,190",
+            "<span class=\"high\" dir=\"ltr\">10</span>",
+            "<span class=\"high\" dir=\"ltr\">0.03%</span>",
+            "2021/11/07",
+            "1400/08/16"
+        ]
+    ]
+}
