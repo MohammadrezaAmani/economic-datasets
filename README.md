@@ -3,7 +3,7 @@ _made by AbrLabs ([Mohammadreza Amani](https://github.com/Mohammadreza Amani) | 
 
 ## Introduction
 
-This dataset comprises 2000 JSON files, each containing valuable information about price changes spanning the last 12 years that crawls from [tgju.org](https://www.tgju.org/). The data covers a diverse range of financial and economic indicators, providing a comprehensive perspective on the dynamics of various markets. The files are organized into separate folders for ease of navigation, ensuring efficient retrieval and analysis.
+This dataset comprises 2000 JSON files, each containing valuable information about price changes spanning the last 12 years that crawled from [tgju.org](https://www.tgju.org/). The data covers a diverse range of financial and economic indicators, providing a comprehensive perspective on the dynamics of various markets. The files are organized into separate folders for ease of navigation, ensuring efficient retrieval and analysis.
 
 ## Dataset Structure
 
