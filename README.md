@@ -3,6 +3,7 @@ _made by AbrLabs ([Mohammadreza Amani](https://github.com/MohammadrezaAmani) | [
 
 
 > info: to get live data from website simply call: [https://call5.tgju.org/ajax.json](https://call5.tgju.org/ajax.json) 🍭
+> info: to get cryptos simply call :[https://api.tgju.org/v1/market/dataservice/crypto-assets](https://api.tgju.org/v1/market/dataservice/crypto-assets)
 ## Introduction
 
 This dataset comprises 2000 JSON files, each containing valuable information about price changes spanning the last 12 years that crawled from [tgju.org](https://www.tgju.org/). The data covers a diverse range of financial and economic indicators, providing a comprehensive perspective on the dynamics of various markets. The files are organized into separate folders for ease of navigation, ensuring efficient retrieval and analysis.
