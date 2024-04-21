@@ -1,51 +1,72 @@
-_made by AbrLabs ([Mohammadreza Amani](https://github.com/MohammadrezaAmani) | [Mobina Afshari](https://github.com/MobinaAfsharii)) 🌕☁️_
-# Price Changes Dataset Overview
+# 🚀 Price Changes Dataset Overview
 
+Made with ❤️ by AbrLabs ([Mohammadreza Amani](https://github.com/MohammadrezaAmani) | [Mobina Afshari](https://github.com/MobinaAfsharii)) 🌕☁️
 
-
-> info: to get live data from the website simply call: [https://call5.tgju.org/ajax.json](https://call5.tgju.org/ajax.json) 🍭\
-> info: to get cryptos simply call :[https://api.tgju.org/v1/market/dataservice/crypto-assets](https://api.tgju.org/v1/market/dataservice/crypto-assets)\
-> info: to get more trustable information call: [https://api.cryptorank.io/v0/coins/](https://api.cryptorank.io/v0/coins/) 🥊
-> info: to get all M1 data use: [https://forexsb.com/historical-forex-data](https://forexsb.com/historical-forex-data)
 ## Introduction
 
-This dataset comprises 2000 JSON files, each containing valuable information about price changes spanning the last 12 years that crawled from [tgju.org](https://www.tgju.org/). The data covers a diverse range of financial and economic indicators, providing a comprehensive perspective on the dynamics of various markets. The files are organized into separate folders for ease of navigation, ensuring efficient retrieval and analysis.
+Welcome to the Price Changes Dataset, a treasure trove of financial insights spanning the last 12 years! This comprehensive dataset, meticulously curated from [tgju.org](https://www.tgju.org/), offers a panoramic view of price fluctuations across various markets. Whether you're a seasoned analyst or a curious researcher, this repository holds invaluable information waiting to be explored.
 
-## Dataset Structure
+## 📊 Dataset Structure
 
-The dataset encompasses a multitude of fields, each offering insights into specific aspects of the financial landscape. The key fields include:
+Dive into the depths of financial data with our structured dataset. Here's a glimpse of what you'll find:
 
-- **Currency**: Information related to currency exchange rates.
-- **Gold Chart**: Data on the performance of gold over time.
-- **Coin**: Details about various coins and their price fluctuations.
-- **قیمت-سکه-پارسیان**: Persian-specific information on the price of gold coins.
-- **نرخ-ارز-نیمایی**: Exchange rates for half currencies.
+- **Currency**: Exchange rates at your fingertips.
+- **Gold Chart**: Track the glittering journey of gold prices.
+- **Coin**: Explore cryptocurrency fluctuations.
+- **قیمت-سکه-پارسیان**: Dive into Persian-specific gold coin prices.
+- **نرخ-ارز-نیمایی**: Discover half currency exchange rates.
 - **Sana**: Daily changes in the Sana index.
-- **Bank**: Financial data related to banking institutions.
-- **Currency Minor**: Additional details about minor currencies.
-- **Global Stocks**: Insights into global stock markets.
-- **World Market/Currency**: Currency-related information on the world market.
-- **Diff**: Comparative data highlighting differences.
-- **Commodities**: Price changes in various commodities.
-- **Energy**: Trends and shifts in the energy sector.
-- **Basemetal**: Data specific to the basemetal market.
-- **Gold Global**: Global trends in the gold market.
-- **Transfer**: Information about currency transfers.
-- **Crypto**: Details on cryptocurrency price changes.
+- **Bank**: Insights into financial institutions.
+- And much more!
 
-## Temporal Coverage
+## 🕰️ Temporal Coverage
 
-The dataset provides a comprehensive view of price changes over the past 12 years, allowing analysts and researchers to explore long-term trends and identify patterns. This temporal dimension adds a valuable historical context to the dataset, enabling a deeper understanding of market dynamics.
+Unravel the tapestry of time with our dataset's 12-year coverage. From the upheavals of the past to the trends shaping tomorrow, every moment is captured for your analysis. Gain historical context and uncover hidden patterns with ease.
 
-## Potential Applications
+## 🌟 Potential Applications
 
-Given the breadth and depth of the dataset, it can be utilized for a variety of applications, including:
+The possibilities are endless with our versatile dataset:
 
-- **Market Research**: Analyzing trends and patterns in different markets.
-- **Financial Modeling**: Building models to predict future price changes.
-- **Risk Assessment**: Evaluating the volatility and risk associated with various financial instruments.
-- **Investment Strategy**: Informing investment decisions based on historical performance.
+- **Market Research**: Decode market trends and unveil hidden patterns.
+- **Financial Modeling**: Build robust models to forecast future price changes.
+- **Risk Assessment**: Evaluate volatility and mitigate risks effectively.
+- **Investment Strategy**: Make informed decisions backed by historical data.
+- **Academic Research**: Explore the dynamics of financial markets for scholarly pursuits.
+- **Data Visualization**: Create stunning visualizations to communicate insights effectively.
+- **Algorithmic Trading**: Develop algorithms to capitalize on price fluctuations.
+- **Economic Analysis**: Understand the impact of price changes on the economy.
+- **And much more!**
 
-## Conclusion
+## 🎉 Conclusion
 
-This dataset, with its rich variety of fields and extensive temporal coverage, serves as a valuable resource for anyone interested in gaining insights into the dynamic world of financial markets. Its well-organized structure facilitates easy access and analysis, making it a powerful tool for researchers, analysts, and data scientists.
+Embark on a journey of discovery with our Price Changes Dataset. Whether you're a data enthusiast, a seasoned analyst, or a curious researcher, there's something here for everyone. Explore, analyze, and uncover the secrets of financial markets like never before!
+
+---
+
+## How To Collect Data?
+
+To collect data from the [tgju.org](https://www.tgju.org/) website, you can use the following code:
+
+```bash
+pip install requests aiohttp aiofiles
+```
+
+```python
+python get_data.py
+```
+
+---
+
+For live data, cryptos, and more trustable information, check out the additional resources below:
+
+🍭 **Live Data**: [https://call5.tgju.org/ajax.json](https://call5.tgju.org/ajax.json)
+
+💰 **Cryptos**: [https://api.tgju.org/v1/market/dataservice/crypto-assets](https://api.tgju.org/v1/market/dataservice/crypto-assets)
+
+🥊 **Trustable Information**: [https://api.cryptorank.io/v0/coins/](https://api.cryptorank.io/v0/coins/)
+
+📈 **M1 Data**: [https://forexsb.com/historical-forex-data](https://forexsb.com/historical-forex-data)
+
+---
+
+Feel free to customize and enhance this README to suit your project's needs. Happy analyzing! 🚀📊
