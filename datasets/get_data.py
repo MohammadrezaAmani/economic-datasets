@@ -2,6 +2,7 @@ import asyncio
 import json
 import os
 import re
+from typing import List
 
 import aiohttp
 import requests
@@ -30,7 +31,17 @@ BASE_URL = "https://api.tgju.org/v1/market/indicator/summary-table-data/{}"
 regex = re.compile(r'href="profile/(.*?)">')
 
 
-async def get_id(id, data_text):
+async def get_id(id: str, data_text: set) -> List[str]:
+    """
+    Retrieves data from a specified URL based on the given ID.
+
+    Args:
+        id (str): The ID used to construct the URL.
+        data_text (set): A set containing existing data.
+
+    Returns:
+        List[str]: A list of data retrieved from the URL.
+    """
     data = []
     text = requests.get(f"https://www.tgju.org/{id}").text
     for i in regex.findall(text):
@@ -42,7 +53,18 @@ async def get_id(id, data_text):
     return data
 
 
-async def get_price(session, id, folder):
+async def get_price(session: aiohttp.ClientSession, id: str, folder: str):
+    """
+    Fetches price data for a given ID from a web API and saves it to a JSON file.
+
+    Args:
+        session (aiohttp.ClientSession): The aiohttp client session to use for making HTTP requests.
+        id (str): The ID of the data to fetch.
+        folder (str): The folder name where the JSON file will be saved.
+
+    Returns:
+        None
+    """
     try:
         async with session.get(BASE_URL.format(id)) as resp:
             if resp.status == 200:
@@ -60,7 +82,21 @@ async def get_price(session, id, folder):
         print(e, id)
 
 
-async def main():
+async def main() -> None:
+    """
+    This is the main function that retrieves data using asynchronous requests.
+
+    It creates a client session using aiohttp and performs multiple tasks concurrently.
+    For each ID in the IDS list, it checks if a corresponding directory exists in the "datasets" folder.
+    If not, it creates the directory.
+    Then, it calls the get_id function to retrieve data and adds the returned IDs to a list of tasks.
+    Finally, it uses asyncio.gather to execute all the tasks concurrently.
+
+    Note: This function should be called within an asyncio event loop.
+
+    Returns:
+        None
+    """
     data_text = set()
     async with aiohttp.ClientSession() as session:
         tasks = []
